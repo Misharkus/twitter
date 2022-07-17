@@ -1,0 +1,57 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(../img/realistic-white-golden-geometric-background_79603-2032.webp);
+    background-size: 100%;
+    font-family: calibri;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+a{
+    color: #1c85b6;
+    font-weight: bold;
+    text-decoration: none;
+}
+p {
+    margin: 10px 0;
+}
+form {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        
+    }
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+.alert {
+    border: 2px solid red;
+    border-radius: 3px;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+.message {
+    border: 2px solid rgb(9, 255, 0);
+    border-radius: 3px;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+

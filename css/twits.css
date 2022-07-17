@@ -1,0 +1,35 @@
+
+body {
+    background: url(../img/realistic-white-golden-geometric-background_79603-2032.webp);
+    background-size: 100%;
+    font-family: calibri;
+}
+textarea {
+    height:150px;
+    resize:vertical;
+}
+p {
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+}
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+a {
+    color: rgb(50, 50, 255);
+    text-decoration: none;
+}
+table {
+    border-block: 2px solid rgb(243, 153, 50);
+    border-right: 2px solid rgb(243, 153, 50);
+    border-left: 2px solid rgb(243, 153, 50);
+}
